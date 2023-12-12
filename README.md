@@ -40,6 +40,10 @@ The script will start a Chrome browser, securely log in to Twitter (prompting fo
 
 Secure Login
 The script utilizes Windows Credential Manager to securely store and retrieve Twitter credentials. It prompts for credentials if not stored, ensuring secure login automation.
+```curl
+curl -u "YOUR_API_KEY:YOUR_API_SECRET_KEY" "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=<USERNAME>&count=10"
+
+```
 
 Troubleshooting
 If the script encounters issues during ChromeDriver installation, check your internet connection or try running the script again.
