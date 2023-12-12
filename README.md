@@ -13,7 +13,7 @@ This PowerShell script automates Twitter searches for specific terms using Selen
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/twitter-search-automation.git
+git clone https://github.com/SleepTheGod/Powershell-Twitter.git
 ```
 2. Install Selenium Module
 Run the script in an elevated PowerShell session to install the Selenium module:
